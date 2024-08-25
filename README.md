@@ -11,6 +11,8 @@ A script to customize and secure Tails OS with privacy enhancements and UI tweak
 3. Right click on `configure.sh` and select `Run as a Program`.
 4. Done 🎉
 
+Everytime you boot into Tails, do step 3.
+
 ## Before vs After
 
 <table>
