@@ -6,7 +6,7 @@ A script to customize and secure Tails OS with privacy enhancements and UI tweak
 
 ## Features
 
-- **Dark Mode**: Switches the desktop and terminal to dark mode.
+- **Dark Mode**: Sets the system theme to dark mode.
 - **Wallpaper**: Changes the desktop wallpaper to a specified image.
 - **Auto Sleep**: Disables automatic sleep mode.
 - **Screen Dim & Lock**: Prevents screen dimming and automatic locking.
