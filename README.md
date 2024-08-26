@@ -67,10 +67,6 @@ Note that some settings are set to `false` by default. If you want to enable the
   </tr>
 </table>
 
-## License
-
-This script is open-source and available under the [MIT License](LICENSE). Feel free to modify and share it.
-
 ## Disclaimer
 
 Use this script at your own risk. The author is not responsible for any issues or damages that may arise from its use.
