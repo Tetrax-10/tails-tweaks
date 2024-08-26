@@ -25,16 +25,7 @@ A script to customize and secure Tails OS with privacy enhancements and UI tweak
 
 Everytime you boot into Tails, do step 3.
 
-#### Paranoid Installation
-
-This method is more secure because it does not require you to clone the repository or download the image files. 
-However, you will need to manually create the `wallpapers` folder and place an image file of your choice in it.
-
-1. Open configure.sh in this GitHub repository in the browser and copy the entire contents.
-2. Paste the contents into a new file called `configure.sh` in the `Persistent` folder.
-3. In the Terminal, run `chmod +x configure.sh` to make the script executable.
-4. Modify the script to your preferences according to the usage instructions below.
-5. Run `configure.sh` to apply the changes.
+**Note**: Downloading files from the internet is not a wise option when privacy and security are your top priorities. If you really want to be secure, do not trust files from the internet; they may contain stegomalware (hidden malicious code inside a file). I recommend not trusting files from random internet users (including me). For installation I recommend you to manually create the `configure.sh` file by copying its contents from GitHub, and download your wallpaper from trusted sites. Make sure to use [VirusTotal](https://www.virustotal.com/gui/) to check that it is not infected.
 
 ## Usage
 
