@@ -25,7 +25,7 @@ A script to customize and secure Tails OS with privacy enhancements and UI tweak
 
 Everytime you boot into Tails, do step 3.
 
-#### More secure installation
+#### Paranoid Installation
 
 This method is more secure because it does not require you to clone the repository or download the image files. 
 However, you will need to manually create the `wallpapers` folder and place an image file of your choice in it.
