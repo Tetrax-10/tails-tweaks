@@ -74,7 +74,7 @@ fi
 # -------- Personal --------
 
 # mouse speed
-if [ "$set_mouse_speed" != 0 ]; then
+if [ "$set_mouse_speed" = true ]; then
   gsettings set org.gnome.desktop.peripherals.mouse speed "$mouse_speed"
 fi
 
