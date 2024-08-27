@@ -19,7 +19,7 @@ A script to customize and secure Tails OS with privacy enhancements and UI tweak
 | Disable USB Auto Mount   | `disable_usb_auto_mount`   | `true`        | Disables automatic mounting of USB devices.         |
 | Disable File History     | `disable_file_history`     | `true`        | Disables the tracking of recent files.              |
 | Set Mouse Speed          | `set_mouse_speed`          | `false`       | Adjusts mouse speed.                                |
-| Disable Wi-Fi            | `disable_wifi`             | `false`       | Optionally disables Wi-Fi.                          |
+| Disable Wi-Fi            | `disable_wifi`             | `false`       | Disables Wi-Fi.                          |
 
 Note that some settings are set to `false` by default. If you want to enable them, you need to set them to `true` in the script.
 
