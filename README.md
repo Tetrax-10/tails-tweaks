@@ -7,7 +7,7 @@ A script to customize and secure Tails OS with privacy enhancements and UI tweak
 ## Features
 
 | Feature                  | Flag                       | Default Value | Description                                         |
-|--------------------------|----------------------------|---------------|-----------------------------------------------------|
+| ------------------------ | -------------------------- | ------------- | --------------------------------------------------- |
 | Enable Dark Mode         | `enable_dark_mode`         | `true`        | Sets the system theme to dark mode.                 |
 | Change Wallpaper         | `change_wallpaper`         | `true`        | Changes the desktop wallpaper to a specified image. |
 | Set Auto Sleep to Never  | `set_auto_sleep_to_never`  | `true`        | Disables automatic sleep mode.                      |
@@ -19,22 +19,25 @@ A script to customize and secure Tails OS with privacy enhancements and UI tweak
 | Disable USB Auto Mount   | `disable_usb_auto_mount`   | `true`        | Disables automatic mounting of USB devices.         |
 | Disable File History     | `disable_file_history`     | `true`        | Disables the tracking of recent files.              |
 | Set Mouse Speed          | `set_mouse_speed`          | `false`       | Adjusts mouse speed.                                |
-| Disable Wi-Fi            | `disable_wifi`             | `false`       | Disables Wi-Fi.                          |
+| Disable Wi-Fi            | `disable_wifi`             | `false`       | Disables Wi-Fi.                                     |
 
 Note that some settings are set to `false` by default. If you want to enable them, you need to set them to `true` in the script.
 
 ### Other Variables
+
 | Variable       | Description                                                                |
-|----------------|----------------------------------------------------------------------------|
+| -------------- | -------------------------------------------------------------------------- |
 | wallpaper_path | Path to the wallpaper image, active if `change_wallpaper` is set to `true` |
-| mouse_speed    | Mouse speed value, active if `set_mouse_speed` is set to `true`            |                                            |
+| mouse_speed    | Mouse speed value, active if `set_mouse_speed` is set to `true`            |
 
 ## Installation
 
 1. [Download this repository](https://github.com/Tetrax-10/tails-tweaks/archive/refs/heads/main.zip)
 2. Copy `wallpapers` folder and `configure.sh` file to `Persistent` folder.
-3. Right click on `configure.sh` and select `Run as a Program`.
-4. Done 🎉
+3. Modify `configure.sh` to your preferences according to the usage instructions above.
+4. Right click on `configure.sh` and go to `Properties` and enable `Executable as Program`.
+5. Right click on `configure.sh` and select `Run as a Program`.
+6. Done 🎉
 
 Everytime you boot into Tails, do step 3.
 
