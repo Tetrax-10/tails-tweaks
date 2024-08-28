@@ -39,7 +39,7 @@ Note that some settings are set to `false` by default. If you want to enable the
 5. Right click on `configure.sh` and select `Run as a Program`.
 6. Done 🎉
 
-Everytime you boot into Tails, do step 3.
+Everytime you boot into Tails, do step 5.
 
 > [!CAUTION]
 > Downloading files from the internet is not a wise option when privacy and security are your top priorities. If you really want to be secure, do not trust files from the internet; they may contain stegomalware (hidden malicious code inside a file). I recommend not trusting files from random internet users (including me). For installation, I recommend you to manually create the `configure.sh` file by copying its contents from GitHub, and download your wallpaper from trusted sites. Make sure to use [VirusTotal](https://www.virustotal.com/gui/) to check that it is not infected.
